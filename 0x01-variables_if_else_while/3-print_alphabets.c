@@ -14,7 +14,7 @@ putchar(c);
 c++;
 }
 
-C = 'A';
+c = 'A';
 
 while (c <= 'Z')
 {
