@@ -90,9 +90,9 @@ int main(int argc, char *argv[])
 	else
 		i = 0;
 	for (; i < length; i++)
-		printf("%d", res[i]);
+		_putchar("%d", res[i]);
 
-	printf("\n");
+	_putchar("\n");
 	free(res);
 	return (0);
 }
